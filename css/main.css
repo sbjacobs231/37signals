@@ -469,3 +469,154 @@ footer p {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	margin-top: 50px;
 }
+
+/*
+	Responsive Design
+*/
+
+@media (max-width: 1075px) {
+	header {
+		display: inline-block;
+		height: 100%;
+		margin: 0 auto;
+		width: 98%;
+	}
+	header h1 {
+		font-size: 42px;
+		margin: 0 5%;
+	}
+	section {
+		margin: 0 auto;
+		width: 550px;
+		padding: 0 5px;
+	}
+	.products a {
+		left: 0;
+		margin: 0 13px;
+		width: 135px;
+	}
+	.customers h2 {
+		font-size: 32px;
+		margin-top: 15px;
+	}
+	.meet,
+	.arrow-left,
+	.arrow-right,
+	.customers > img,
+	.crumple {
+		display: none;
+	}
+	.manifest h2,
+	.rework h2 {
+		font-size: 32px;
+	}
+	.column,
+	.column-end {
+		width: 96%;
+		padding: 0 2%;
+	}
+	.book {
+		height: 425px;
+	}
+	.quotes h3 {
+		margin: 0;
+		font-size: 18px;
+	}
+	.offerings .column,
+	.offerings .column-end {
+		width: 260px;
+		margin-left: 0;
+	}
+	footer {
+		width: 560px;
+	}
+}
+/* Max Width 600*/
+
+@media (max-width: 600px) {
+	header {
+		display: inline-block;
+		height: 100%;
+		margin: 0 auto;
+		width: 98%;
+	}
+	header h1 {
+		font-size: 42px;
+		letter-spacing: -2px;
+	}
+	header h5 {
+		padding: 0 20px;
+	}
+	section {
+		margin: 0 auto;
+		width: 430px;
+		padding: 0 5px;
+	}
+	.products {
+		height: 800px;
+		position: relative;
+		top:-35px;
+	}
+	.products a {
+		width: 200px;
+		left:95px;
+		margin: 15px 0;
+	}
+	.customers {
+		padding-top: 25px;
+	}
+	.customers h2 {
+		font-size: 30px;
+	}
+	.rework {
+		display: inline-block;
+		height: 100%;
+		margin: 0 auto;
+		width: 92%;
+	}
+	.rework h2 {
+		font-size: 30px
+	}
+	.book {
+		width: 100%;
+		height: 205px;
+	}
+	.book img {
+		height: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	.offerings h2 {
+		font-size: 30px;
+	}
+	.main-offerings {
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+	}
+	.main-offerings a {
+		width: 200px;
+		display: block;
+		float: none;
+		margin: 10px auto;
+	}
+	.offerings .column,
+	.offerings .column-end {
+		float: none;
+		margin: 0 auto;
+		width: 300px;
+	}
+	footer {
+		width: 430px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
